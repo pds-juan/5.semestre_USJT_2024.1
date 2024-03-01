@@ -1,0 +1,46 @@
+/* arquivo styles.css */
+
+/* Selecionamos os elementos h1 aqui */
+#titulo {
+    color: green;
+    text-align: center;
+}
+
+/* somente elementos do tipo p que tenham id igual a descricao */
+p#descricao {
+    color: blue;
+}
+
+p.promocao {
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.nova {
+    color: white;
+}
+
+/* todo p que tenha classe final-pagina e cujo id seja rodape */
+p.final-pagina#rodape {
+    background-color: lightgray;
+    text-align: center;
+}
+
+/* todo curso tem essa cor de fundo */
+/* separamos os seletores usando uma vírgula. Ela faz um papel de "ou lógico" */
+.curso, .novo-curso {
+    background-color: aliceblue;
+}
+
+/* veja a cor de fundo repetida para que possamos especificar uma regra não aplicável aos demais cursos */
+/* agora não precisamos mais repetir a cor de fundo */
+.novo-curso {
+    /* background-color: aliceblue; */
+    color: red;
+}
+
+.curso, .novo-curso, #contato {
+    /* padding: espaço entre o conteúdo e a borda. */
+    padding: 12px;
+    border: 1px solid lightgray;
+}
