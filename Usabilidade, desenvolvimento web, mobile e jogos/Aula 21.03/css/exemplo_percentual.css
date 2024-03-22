@@ -1,0 +1,22 @@
+html {
+    font-size: 62.5%;
+}
+
+article {
+    /* font-size: 200%; */
+    background-color: aliceblue;
+    border: 1px solid #CCC;
+    width: 40%;
+    margin-top: 25%;
+}
+
+p {
+    /* font-size: 150%; */
+    font-size: 240%;
+}
+
+.principal {
+    background-color: cornsilk;
+    width: 1200px;
+    margin: 0 auto;
+}

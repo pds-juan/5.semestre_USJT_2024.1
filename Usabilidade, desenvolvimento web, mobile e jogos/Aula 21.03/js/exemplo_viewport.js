@@ -1,0 +1,1 @@
+document.write("<p>" + window.innerWidth + "x" + window.innerHeight + "</p>");
