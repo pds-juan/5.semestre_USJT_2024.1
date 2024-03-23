@@ -1,0 +1,40 @@
+html {
+    margin: 0;
+    border: 3px solid red;
+}
+
+body {
+    margin: 3;
+    border: 3px solid blue;
+}
+
+.primeiro,
+.segundo {
+    border: 3px solid black;
+    margin: 0;
+}
+
+.primeiro {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.terceiro {
+    margin: 20px 50px;
+}
+
+.quarto {
+    margin: 10px 50px 100px 200px;
+}
+
+.terceiro,
+.quarto {
+    border: 3px solid green;
+}
+
+.quinto {
+    margin-top: -50px;
+    border: 3px solid yellow;
+    margin: 20px auto;
+    width: 300px;
+}
