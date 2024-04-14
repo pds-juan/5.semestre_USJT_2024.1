@@ -1,11 +1,15 @@
-// npm init -y
+/*
 
-// npm install axios
-// npm install cors
-// npm install express
+npm init -y
 
-// ou os 3 de uma vez
-// npm install axios cors express
+npm install axios
+npm install cors
+npm install express
 
-// instalando o nodemon apenas para desenvolvimento
-// npm install nodemon --save-dev
+ou os 3 de uma vez:
+npm install axios cors express
+
+instalando o nodemon apenas para desenvolvimento
+npm install nodemon --save-dev
+
+*/
